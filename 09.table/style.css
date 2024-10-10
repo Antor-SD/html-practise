@@ -1,0 +1,36 @@
+P{
+    color: aqua;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+#tablediv{
+    overflow-x: auto;
+}
+.customers{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+.customers td, .customers th{
+    padding: 5px;
+    border: 2px solid #ddd;
+}
+
+.customers th{
+    vertical-align: middle;
+    height: 70px;
+    color: white;
+    background-color: #04AA6D;
+    text-align: left;
+}
+.customers tr:nth-child(even){
+    background-color: bisque;
+}
+.customers tr:hover{
+    background-color: rgb(236, 192, 129);
+}
+.customers td{
+    height: 5px;
+    text-align: center;
+}

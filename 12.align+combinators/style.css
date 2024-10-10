@@ -1,0 +1,25 @@
+/*align start from here */
+/* alada code dekhte jekono ekta k hide korte hoebe */ 
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+p{
+    text-align: justify;
+}
+img{
+    float: right;
+}
+
+/*combinators start from here*/
+
+div > p{
+    background-color: yellow;
+}

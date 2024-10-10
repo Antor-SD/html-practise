@@ -1,0 +1,33 @@
+:root{
+    --blue: rgb(44, 34, 185);
+    --green: rgb(35, 190, 14);
+}
+
+
+.demo{
+    --blue: red;
+    height: 500px;
+    width: 400px;
+   border: 2px solid var(--blue);
+   background-color: var(--blue);/* local variable will override global */
+}
+
+p{
+    color: var(--blue);
+}
+
+/* this section is for box-sizing */
+.div1{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.div2{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    padding: 50px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,40 @@
+/* this is pseudo class style */
+
+a:hover{
+    color: white;
+    background-color: aqua;
+}
+a:active{
+    color: rgb(68, 0, 226);
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+li:nth-child(odd ){
+    color:rgb(105, 25, 25);
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: brown;
+}
+
+/*this is pseudo element style  */
+
+/* content must be weitten in double qutation("content") */
+body::after{ 
+    content: "This is Antors progaming sheet" ;
+}
+body::before{
+    content: "This is Antors progaming sheet";
+}
+
+p::selection{
+    background-color: aqua;
+    color: blue;
+}
+img{
+    opacity: .50;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+#outline{
+    
+    border: 5px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    color: aqua;
+    background-color: blueviolet;
+    outline: 10px dashed red;
+}
+#format{
+    color: rgba(200, 180, 190, 1);
+    background-color: black;
+    text-align: justify;
+    direction: rtl;
+}
+h1{
+    font-family: "Mr Dafoe", cursive;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 10px;
+}
+.text{
+    text-indent: 20px;
+    letter-spacing: 5px;
+    line-height: 2.0;
+    word-spacing: 5px;
+
+}
+#shadwo{
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+
+
+
+
+a:link, a:visited{
+    color: black;
+    padding: 2px 6px;
+    border: 1px solid black;
+    text-decoration: none;
+    
+}
+a:hover, a:active{
+    color: white;
+    background-color: green;
+} 

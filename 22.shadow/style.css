@@ -1,0 +1,80 @@
+/* normal shadow type */
+h1:nth-child(1){
+    text-shadow: 2px 2px;
+}
+/* color shadow type */
+h1:nth-child(2){
+    text-shadow: 2px 2px red;
+}
+/* blur shadow type */
+h1:nth-child(3){
+    text-shadow: 2px 2px 5px red;
+}
+/* multiple shadow type */
+h1:nth-child(4){
+    text-shadow: 2px 2px 4px red, -4px -2px 3px green;
+}
+/* box shadow type+ multiple  */
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px green, 10px 10px 20px blue;
+}
+ /*box shadow inset type  */
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+/* text card making with shadow effect */
+.card{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.header{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+
+}
+.text{
+    padding: 10px;
+    font-size: 20px;
+}
+/* image card making with shadow effect */
+#card{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+#header img{
+    width: 250px;
+    height: auto;
+}
+#text{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* this section is for text effect */
+p{  
+    width: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+    word-break: keep-all;
+}
+/* this section is for writing mode */
+.head3{
+    writing-mode: horizontal-tb;
+}
+.head4{
+    writing-mode: vertical-lr;
+}

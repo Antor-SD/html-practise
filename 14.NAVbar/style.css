@@ -1,0 +1,62 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 50, 50);
+    /* overflow: hidden; */
+}
+/* hidden item is using for float system */
+li{
+    /* float: left; */
+    display: inline-block;
+    /* when display is using there is no need overflow and float */
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: #04aa60;
+}
+/* this section is for dropdown content */
+
+.dropdown{
+   display: inline-block;
+   position: relative;
+}
+.dropdown button{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;  
+    
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 16px;
+}
+ 
+.dropdown:hover .dropcontent{
+    display: block;
+}
+.dropcontent a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.dropcontent a:hover{
+    background-color: #ddd;
+}
+
+ 

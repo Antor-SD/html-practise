@@ -1,0 +1,51 @@
+/* this section is for transitions normal */
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 6, 6);
+    /* transition-property: width;
+    transition-duration: 2s; */
+    transition: width 2s, height 4s;
+}
+.div1:hover{
+    width: 300px;
+    height: 300px;
+}
+/* this section is for various kind of transitions */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 218, 93); 
+    transition: width 5s; 
+    margin: 10px;
+}
+.div2{
+    transition-timing-function: linear;
+}
+.div3{
+    transition-timing-function: ease;
+}
+.div4{
+    transition-timing-function: ease-in;
+}
+.div5{
+    transition-timing-function: ease-out;
+}
+.div6{
+    transition-timing-function: ease-in-out;
+}
+.div7{
+    transition-timing-function: cubic-bezier(.23,.64,.77,.31);
+}
+div:hover{
+    width: 300px;
+}
+/* transition in big form */
+/* 
+transition-propety: ;
+transition-duration: ;
+transition-timing-function: ;
+transition-delay: ;
+*/
+/* transition in short hand */
+/* transtion: width 2s linear 1s */
